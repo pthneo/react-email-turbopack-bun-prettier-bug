@@ -3,15 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
+    "webpack": "bun --bun next dev --webpack",
+    "turbopack": "bun --bun next dev"
   },
   "dependencies": {
     "next": "16.4.0",
     "react": "19.3.0",
-    "react-dom": "19.3.0"
+    "react-dom": "19.3.0",
+    "react-email": "^6.11.1"
   },
   "devDependencies": {
     "@tailwindcss/turbopack": "^4",
